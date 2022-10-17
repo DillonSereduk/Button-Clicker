@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="button_clicker.css">
+</head>
+<body>
+    <div class="container">
+        <main class="header">
+            <h1 class="header_left">
+                <strong>Dojonary</strong>
+            </h1>
+            <h2 class="header_middle">
+                Search
+            </h2>
+            <section class="header_right">
+                <button class="login_button" onclick="logOut(this)">
+                    Login
+                </button>
+            </section>
+        </main>
+
+        <main class="row">
+            <div class="flex_2">
+                <div class="definition-box">
+                    <section class="left">
+                        <h1>ninja</h1>
+                        <p><i>noun</i></p>
+                        <p>Plural: <i>ninjas</i></p>
+                        <button class="like_btn" onclick="message()">
+                            9999 likes
+                        </button>
+                    </section>
+                    <p class="definition">
+                        A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+                <div class="definition-box">
+                    <section class="left">
+                        <h1>ninja</h1>
+                        <p><i>noun</i></p>
+                        <p>Plural: <i>ninjas</i></p>
+                        <button class="like_btn" onclick="message()">
+                            2.3B likes
+                        </button>
+                    </section>
+                    <p class="definition">
+                        A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                    </p>
+                </div>
+            </div>
+            <div class="flex_1">
+                <section class="box">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button class="add_def" onclick="hide(this)">Add Definition</button>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="button_clicker.js"></script>
+</body>
+</html>
